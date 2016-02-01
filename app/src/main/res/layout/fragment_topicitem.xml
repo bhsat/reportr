@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTopic"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:text="Ontology"
+        android:textSize="15dp"
+        android:textColor="#d80707"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvSummary"
+        android:text="Summary"
+        android:layout_below="@+id/tvTopic"
+        android:layout_alignStart="@+id/tvTopic"
+        android:textSize="18dp"
+        android:textColor="#020202"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:id="@+id/tvDesc"
+        android:layout_below="@+id/tvSummary"
+        android:layout_alignStart="@+id/tvSummary"
+        android:layout_marginTop="33dp"
+        android:textColor="#113ae1"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/tvExpiry"
+        android:layout_below="@+id/tvDesc"
+        android:textSize="10dp"
+        android:layout_alignStart="@+id/tvDesc" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:paddingLeft="5dp"
+        android:id="@+id/tvCoins"
+        android:layout_below="@+id/tvDesc"
+        android:layout_toEndOf="@+id/tvExpiry"
+        android:textSize="10dp"
+        android:paddingBottom="5dp"/>
+</RelativeLayout>

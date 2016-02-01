@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Reportr</string>
+    <string name="Terms">Terms</string>
+    <string name="Privacy">Privacy</string>
+    <string name="requests">Requests</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="my_interests">My Interests</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="save_onto">Done</string>
+    <string name="gcm_defaultSenderId">49693982614</string>
+</resources>
